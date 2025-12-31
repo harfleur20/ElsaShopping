@@ -1,0 +1,38 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    margin-top: 80px;
+}
+
+.popular h1{
+    color: #1749a0;
+    font-size: clamp(1.1rem, 2.5rem, 2.8rem);
+    font-weight: 600;
+    font-family: 'ANTON', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.popular h1::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background: #f16124;
+    top: 70px;
+    transform: translateX(-310px);
+    right: -194px;
+}
+
+
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+   
+}
