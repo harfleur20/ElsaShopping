@@ -13,7 +13,8 @@
     gap: 50px;
     color: #1749a0;
     font-size: 18px;
-    font-family: 'ANTON', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
 }
 
 .nav-menu ul li a {
@@ -31,6 +32,11 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-menu ul li:hover{
+    color: #f16124;
 }
 
 .nav-menu hr{
@@ -38,7 +44,7 @@
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background-color: #f16124;
+    background-color:#f16124;
 }
 
 .nav-login-cart{
@@ -53,11 +59,11 @@
     border: 1px solid #1749a0;
     border-radius: 75px;
     color: #1749a0;
-    font-weight: 500;
+    font-weight: 600;
     background: white;
     font-size: 14px;
     cursor: pointer;
-    font-family: 'ANTON',sans-serif;
+    font-family: 'Lato',sans-serif;
 }
 
 .nav-login-cart button:active{
@@ -81,5 +87,6 @@
     font-size: 11px;
     background: #f16124;
     color: white;
-    font-family: 'ANTON', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
 }

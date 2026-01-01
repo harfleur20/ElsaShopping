@@ -13,5 +13,6 @@
 
 body{
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 

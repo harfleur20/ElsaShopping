@@ -1,4 +1,4 @@
-.popular{
+.new-collections{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
     padding: 0 20px; 
 }
 
-.popular-item {
+.new-collections-item {
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -18,17 +18,17 @@
     width: 100%; 
 }
 
-.popular h1{
+.new-collections h1{
     color: #1749a0;
     font-size: clamp(1.1rem, 2.5rem, 2.3rem);
     font-weight: 700;
     font-family: 'Lato', sans-serif;
-    margin-bottom: 20px;
     position: relative;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.popular h1::after{
+.new-collections h1::after{
     content: "";
     position: absolute;
     width: 200px;
@@ -40,11 +40,9 @@
 }
 
 
-.popular-item{
-    /* margin-top: 80px; */
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-   
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 40px;
 }
