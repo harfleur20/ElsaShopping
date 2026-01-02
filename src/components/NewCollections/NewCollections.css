@@ -13,7 +13,8 @@
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    column-gap: 30px;
+    row-gap: 70px;
     flex-wrap: wrap;
     width: 100%; 
 }
@@ -44,5 +45,5 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
-    gap: 40px;
+    gap: 50px;
 }
