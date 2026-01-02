@@ -3,9 +3,9 @@ import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
-import men_banner from "../../FrontEnd/src/assets/Frontend_Assets/banner_mens.png"
-import women_banner from "../../FrontEnd/src/assets/Frontend_Assets/banner_women.png"
-import kid_banner from "../../FrontEnd/src/assets/Frontend_Assets/kid_women.png"
+import men_banner from "./assets/Frontend_Assets/banner_mens.png"
+import women_banner from "./assets/Frontend_Assets/banner_women.png"
+import kid_banner from "./assets/Frontend_Assets/banner_kids.png"
 
 
 

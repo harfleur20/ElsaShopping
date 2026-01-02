@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
-import all_product from "../../assets/Frontend_Assets/all_product"
+import all_product from '../assets/Frontend_Assets/all_product'
 
 
 /* eslint-disable react-refresh/only-export-components */
